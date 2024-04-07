@@ -1,13 +1,55 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #cc3f3f;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+form {
+  background-color: #cc3f3f;
+  border-radius: 13px;
+  padding: 22px;
+  display: inline-block;
+  margin: auto;
+}
+
+input[type="text"]:focus, input[type="file"]:focus {
+  border-color: #8aa4c0;
+  outline: none;
+}
+
+
+
+button {
+  background-color: #0056b3;
+  color: rgb(220, 205, 39);
+  padding: 30px 40px;
+  cursor:copy;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #003d7a;
+  padding: 20px 30px;
+}
+
+input[type="text"], input[type="file"] {
+  display: block;
+  margin: 60px auto;
+  padding: 45px;
+  width: 90%;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+
+.success, .error {
+  color: rgb(34, 180, 18);
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 4px;
+  width: fit-content;
+  margin: 20px auto;
 }
