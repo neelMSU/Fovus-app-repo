@@ -1,6 +1,7 @@
 # Full Stack Fovus Project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In the Lambda File you will the code used for the lambda function.
 
 ## Prerequisites
 
