@@ -44,7 +44,7 @@ function App() {
     try {
       const apiResponse = await fetch(url, 
       {
-        body: JSON.stringify({ txtInp, fileName: file?.name }),method: 'POST',headers: {'Content-Type': jsn,},
+        body: JSON.stringify({ inputText:txtInp, fileName: file?.name }),method: 'POST',headers: {'Content-Type': jsn,},
       });
 
       const data = await apiResponse.json();
